@@ -1,0 +1,4 @@
+Difficulty,q0,v0,Initial_Energy,Reference_Energy_Level,Recovery_Success,Settling_Time_s,Computation_Time_s,Solver_Success
+Baseline,0.89443,0.0,-0.2400005024836876,-0.24,True,19.197,0.9491173999995226,True
+Intermediate,0.47477,0.0,-0.1000012479274349,-0.1,True,33.305,0.9614866000010807,True
+Challenge,0.14214,0.0,-0.009999841622468654,-0.01,True,36.896,0.9411322000014479,True

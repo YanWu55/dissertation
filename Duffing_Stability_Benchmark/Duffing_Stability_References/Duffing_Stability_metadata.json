@@ -1,0 +1,23 @@
+{
+    "system": "Duffing Oscillator",
+    "benchmark_family": "Multiple-Equilibrium Stability and Basin-Recovery Benchmark",
+    "parameters": {
+        "delta": 0.2,
+        "alpha": -1.0,
+        "beta": 1.0
+    },
+    "solver": "SciPy solve_ivp DOP853",
+    "scipy_version": "1.13.1",
+    "python_version": "3.12.3 | packaged by conda-forge | (main, Apr 15 2024, 18:20:11) [MSC v.1938 64 bit (AMD64)]",
+    "rtol": 1e-10,
+    "atol": 1e-12,
+    "max_step_s": 0.01,
+    "time_horizon_s": 60.0,
+    "target_set": {
+        "q_condition": "|q - 1| <= 0.02",
+        "v_condition": "|v| <= 0.02"
+    },
+    "settling_time_definition": "First time after which the state remains inside the target set until the end of the 60 s horizon.",
+    "settling_time_sampling_interval_s": 0.001,
+    "reference_type": "Analytical + Numerical"
+}
