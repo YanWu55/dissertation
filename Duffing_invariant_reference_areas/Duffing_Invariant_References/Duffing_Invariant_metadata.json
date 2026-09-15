@@ -1,0 +1,18 @@
+{
+    "system": "Duffing Oscillator",
+    "benchmark_family": "Multi-Well Invariant-Set and Basin-Geometry Benchmark",
+    "energy_function": "H(q,v) = 0.5*v^2 - 0.5*q^2 + 0.25*q^4",
+    "energy_levels": {
+        "Baseline": -0.24,
+        "Intermediate": -0.1,
+        "Challenge": -0.01
+    },
+    "numerical_method": "SciPy adaptive quadrature scipy.integrate.quad",
+    "independent_check": "Composite Simpson integration",
+    "epsabs": 1e-12,
+    "epsrel": 1e-12,
+    "simpson_grid_points": 200001,
+    "scipy_version": "1.13.1",
+    "reference_type": "Analytical + Numerical",
+    "reference_description": "Analytical boundary geometry; numerical evaluation of set area."
+}
