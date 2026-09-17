@@ -1,0 +1,12 @@
+clear;
+clc;
+close all;
+
+%% ============================================================
+% Chapter 6 Cart-Pole figures
+% Uses the REVISED shared CP-1 benchmark results
+% =============================================================
+
+summaryFile = 'CARTPOLE_CTRL_reference_summary.csv';
+challengeFile = 'CARTPOLE_CTRL_C_reference.mat';
+
