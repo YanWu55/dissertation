@@ -1,0 +1,4 @@
+Difficulty,Initial_Theta_HalfWidth_deg,CORA_Computation_Time_s,Validation_Trajectories
+Baseline,1,1178.8247888,100
+Intermediate,3,1115.5641619,100
+Challenge,5,1098.2410694,100
