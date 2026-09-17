@@ -1,0 +1,2 @@
+NormalizedRMSE,SettlingTime,TerminalScaledError,MaxPoleAngleDeg,MaxCartPosition,ControlEffort,PeakInput,MaxStateViolation,MaxInputViolation,ClosedLoopCost,MeanSolveTime,MaxSolveTime,MeanIterations,SolverSuccessRate
+0.156754276010216,0.8,0.0026524333938765,8.59436692696235,0.2,81.10180093562,22.1014575961878,0,0,0.2000869664185,1.10091165375,2.9039233,9.7375,1

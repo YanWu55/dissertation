@@ -1,0 +1,2 @@
+NormalizedRMSE,SettlingTime,CA_RMSE,T_RMSE,TerminalScaledError,MaxTemperatureDeviation,ControlEffort,PeakInputDeviation,CAConstraintViolation,TemperatureConstraintViolation,MaxStateViolation,MaxInputViolation,MaxInputRateViolation,ClosedLoopCost,MeanSolveTime,MaxSolveTime,MeanIterations,SolverSuccessRate
+0.389514796800621,7.5,2.92363926952154,25.7381256395536,2.2090272786725e-08,61.8683557277439,1573.48394281555,22.9602251797765,0,0,0,0,5.6843418860808e-14,3.17587427427398,0.6772514075,1.3037927,5.825,1
